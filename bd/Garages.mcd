@@ -1,0 +1,5 @@
+GARAGE: idGarage, nomGarage, nbPlace
+
+CONTENIR, 01 VOITURE, 0N GARAGE
+
+VOITURE: idVoiture, idGarage, proprietaire, marque, vitesseMax

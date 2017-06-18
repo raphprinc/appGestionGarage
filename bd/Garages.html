@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  #mld .relation { font-variant: small-caps; font-weight: bold }
+  #mld .primary { text-decoration: underline }
+  #mld .foreign { font-style: oblique }
+  #mld .normal { }
+</style>
+</head>
+<body>
+<div id='mld'>
+<div>
+  <span class='relation'>GARAGE</span> (
+    <span class='primary'>idGarage</span>,
+    <span class='normal'>nomGarage</span>,
+    <span class='normal'>nbPlace</span>
+  )
+</div>
+<div>
+  <span class='relation'>VOITURE</span> (
+    <span class='primary'>idVoiture</span>,
+    <span class='normal'>idGarage</span>,
+    <span class='normal'>proprietaire</span>,
+    <span class='normal'>marque</span>,
+    <span class='normal'>vitesseMax</span>,
+    <span class='foreign'>idGarage.1</span>
+  )
+</div>
+</div>
+</body>
+</html>
