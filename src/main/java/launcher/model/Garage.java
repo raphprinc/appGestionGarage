@@ -1,4 +1,4 @@
-package model;
+package launcher.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

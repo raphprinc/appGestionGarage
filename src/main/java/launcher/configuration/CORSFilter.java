@@ -1,4 +1,4 @@
-package com.configuration;
+package launcher.configuration;
 
 import java.io.IOException;
 
